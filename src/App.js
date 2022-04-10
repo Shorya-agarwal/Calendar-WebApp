@@ -50,7 +50,7 @@ function App() {
     <div className="App">
             <h1 className="my-3">Calendar</h1>
             <h2 className="my-2">Add New Event</h2>
-            <div className="d-flex justify-content-center ">
+            <div className= "event">
                 <input type="text" placeholder="Add Title" style={{ width: "30%",  marginRight: "8px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker placeholderText="Start Date"  style={{marginRight: "8px" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
                 <DatePicker placeholderText="End Date" selected={newEvent.end} onChange={(end) => setNewEvent({ ...newEvent, end })} />

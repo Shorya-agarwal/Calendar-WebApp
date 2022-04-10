@@ -1,11 +1,22 @@
 .App {
   text-align: center;
 }
-.react-datepicker-wrapper,
-.react-datepicker__input-container,
-.react-datepicker__input-container input {
-    display: block;
-    width: 250px;
-    margin-right: 13px;
-    margin-left: 3px;
+
+
+@media (min-width: 800px){
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container,
+  .react-datepicker__input-container input {
+      display: block;
+      width: 250px;
+      margin-right: 13px;
+      margin-left: 3px;
+  }
+}
+
+@media (min-width: 800px){
+  .event{
+    display: flex;
+    justify-content: center;
+  }
 }
